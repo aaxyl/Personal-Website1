@@ -47,10 +47,11 @@
 						<!-- Personal Info -->
 							<article id="personal info">
 								<h2 class="major">Personal Info</h2>
+								<span class="image main"><img src="images/brian.jpg" alt="" /></span>
 								<p>Brian Yang (s3723064) | s3723064@student.rmit.edu.au</p>
 								<p>Nationality: New Zealander | Ethnicity: Chinese</p>
 <p>Education: VCE (Mathematical Methods, Chemistry and Physics) | Language/s: English, Chinese</p>
-<p> </p>
+<p></p>
 <p>Hobbies: Freelance graphics design, hardware & software tinkering, casual badmington player</p>
 							</article>
 
@@ -68,12 +69,12 @@
 								<h2 class="major">Personal Profile</h2>
 								<h3>Myers-Briggs test results:</h3>
 								<h4>Advocate (Type A)</h4>
-								<p>Introverted: 56% | Extroverted: 44%</i></b></p>
-								<p>Intuitive: 53% | Observant: 47%</p>
-								<p>Feeling: 63% | Thinking: 37%</p>
-								<p>Prospecting: 60% | Judging: 40%</p>
-								<p>Assertive: 61% | Observant: 39%</p>
-								<p> </p>
+								<p>Introverted: 56% | Extroverted: 44%</p>
+								<p><b><i>Intuitive: 53%</i></b> | Observant: 47%</p>
+								<p><b><i>Feeling: 63%</i></b> | Thinking: 37%</p>
+								<p><b><i>Prospecting: 60%</i></b> | Judging: 40%</p>
+								<p><b><i>Assertive: 61%</i></b> | Observant: 39%</p>
+								<p></p>
 								<h3><b><i>Learning Style test results:</i></b></h3>
 								<p>Auditory: 45%</p>
 
@@ -121,23 +122,29 @@
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 								<b><i><h3>Lowcost Arduino Quadcopter Drone</h3></i></b>
 								<b><i><h4>Overview of the project</h4></i></b>
-								<p>This project will involve the construction of a relatively low cost quadcopter drone consisting of a quadcopter frame (has to be sturdy, on top of being lightweight as well), rotors (each fitted with electronic speed controllers), propellers, a battery pack, IMU, an arduino board (w/ or w/o flight controller components soldered on, the latter would involve more steps & electronic components) and a RC controller used for remote control of the quadcopter. Some aerodynamic principles (i.e: mainly thrust) would be taken into consideration when purchasing or making my own propellers, as it is crucial for propelling the drone itself into the air. Programming is also involved in linking the arduino to the flight controller components, especially the RC controller which allows for controlling the quadcopter via remote control.</p>
+								<p>This project will involve the construction of a relatively low cost quadcopter drone consisting of a quadcopter frame (has to be sturdy, on top of being lightweight as well), electric motors (each fitted with electronic speed controllers), propellers, a battery pack, IMU, an Arduino (UNO) board (w/ or w/o flight controller components soldered on, the latter would involve more steps & electronic components) and a RC controller used for remote control of the quadcopter. Some aerodynamic principles (i.e: mainly thrust) would be taken into consideration when purchasing or making my own propellers, as it is crucial for propelling the drone itself into the air. Programming is also involved in linking the arduino to the flight controller components, especially the RC controller which allows for controlling the quadcopter via remote control.</p>
 								<p></p>
 								<b><i><h4>Motivation for the project</h4></i></b>
 								<p>There is a currently ever increasing market for drones, and with that, more and more people who'd want one. However most quality ones come at a hefty cost. As such, this project aspires to rectify the problem of finances by providing a way for ordinary people and enthusiasts alike to be able to build their own drones, specifically the quadcopter variant by using an Arduino board and low-cost but durable materials used in the physical construction of the drone.</p>
 								<p></p>
 								<b><i><h4>Project Description</h4></i></b>
+								<p>The product produced in this project is an Arduino-powered drone, more specifically the quadcopter variant (a multirotor helicopter lifted and propelled by 4 rotors). The physical structure of the quadcopter would consist of it's frame, constructed out of a centre mounting plate (for mounting electronics), four arms connected in a "cross", attached to motor brackets for attaching the counter-clockwise brushless motors, which inturn spin the propellers.</p> 
+								<p>Each motor is fitted with ESCs or electronic speed controllers, which control the speed at which a motor spins (a controller that can provide 10A or higher current, a certain range of programability, and allow for it's signal frequency range to be changed to any value is the most preferable).</p> 
+								<p>The materials involved in the construction have to be sturdy, lightweight and relatively lowcost (i.e: aluminium, carbon fiber or wood). Although carbon fiber offers much higher absorption of vibrations caused by the motors and is the most rigid material, it is also the most expensive one out of the three. Wooden boards are also good as a vibration absorbant, but are more fragile out of the three, which is an undesirable characteristic considering what would happen in the event of a crash. Thus aluminium would be the best compromise as the material of choice in the quadcopter frame's construction.</p>
+								<p>As for the electronic components comprising the quadcopter, such as the batterypack, Arduino board, inertial measurement unit, the RC controller and an optional small-sized camera.</p> 
+								<ul>
+									<li>The recommended types of batteries that can be used are LiPo and NiMH, with LiPo being more lightweight and able to provide the required current levels but with a higher pricetag and NiMH being cheaper but being heavier in weight.</li>
+									<li>The Arduino board is the microcontroller for the overall flight controller board, the microcontroller itself would consist of 14 digital input/output pins (6 of which can be used as PWM outputs), 6 analog inputs, a 16MHz crystal oscillator, a USB connector for loading the code into the Arduino, a power jack, a ICSP header for "in-system" programming and a reset button.</li>
+									<li>The IMU or intertial measurement unit is used for measuring the orientation, velociy and force of gravity of the quadcopter, allowing the electronics which control the power gone to the motors to adjust speeds accordingly in order to keep the quadcopter upright in midair.</li> 
+								</ul>
 								<p></p>
+								<b><i><h4>Tools and Technologies required</h4></i></b>
+								<p>The technologies required for this project would consist of various sturdy and lightweight materials used in the physical construction of the quadcopter (i.e: quadcopter frame, rotors each w/ electronic speed controllers, counter-wise brushless motors and propellers), as well as an Arduino board w/ the accompanying Arduino IDE software, a battery pack (most preferably LiPo), an IMU (inertial measurement unit), a small-sized camera, a RC controller unit and an accompanying remote control unit. Tools required for the construction of the quadcopter itself would involve a construction tookit, a soldering iron & lead, multi-color wires, a multimeter & LED displays for testing purposes.</p>
 								<p></p>
-								<b><i><h4>Tools and Technologies required<b><i><h4>
-								<p>The technologies required for this project would consist of various sturdy and lightweight materials used in the physical construction of the quadcopter (i.e: quadcopter frame w/ center mounting plate, x4 arms, x4 motor brackets, rotors each w/ electronic speed controllers, counter-wise brushless motors and propellers), as well as an Arduino board w/ the accompanying Arduino IDE software, a battery pack (most preferably LiPo), an IMU (inertial measurement unit), a RC controller unit and an accompanying remote control unit. Tools required for the construction of the quadcopter itself would involve a construction tookit, a soldering iron & lead, multi-color wires, a multimeter & LED displays for testing purposes.</p>
-								<p></p>
-								<b><i><h4>Skills required<b><i><h4>
-								<p>Good knowledge in programming (using the YMFC-AL code is a good point to start off with)</p>
-								<p>Experience in soldering electronics (if purchasing a stock arduino)</p>
-								<p></p>
-								<b><i><h4>Outcome<b><i><h4>
-								<p>If everything goes well, I would have a working, inexpensive, Arduino-powered quadcopter made from scratch.</p>
+								<b><i><h4>Skills required</h4></i></b>
+					           		<p>The skills needed for the design of the quadcopter would involve experience in soldering electronic components, electrical tinkering of said components, and a decent level of programming in being able to rewrite or add code to be loaded up to the Arduino UNO board via the Arduino IDE software in either Windows or Mac OS X. The difficulty of this project in terms of the skills required is moderate, as it requires multiple testruns in various stages, as well as at least some experience in working with electronics; both in soldering connections and programming.</p>								<p></p>
+								<b><i><h4>Outcome</h4></i></b>
+								<p>If everything goes well, the end result would be a working, inexpensive, Arduino-powered quadcopter made from scratch with room for further adjustments and upgrades/expansion if needed.</p>
 							</article>
 			
 					</div>
