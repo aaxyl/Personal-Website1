@@ -657,7 +657,7 @@
 			}
 
 		.image.main {
-			display: block;
+			display: none;
 			margin: 2.5rem 0;
 			width: 100%;
 		}
