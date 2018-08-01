@@ -646,6 +646,13 @@
 			top: 0.25em;
 		}
 
+		
+		.image.fitTP {
+			display: initial;
+			margin: 0 0 2rem 0;
+			width: 100%;
+		}
+
 		.image.fit {
 			display: block;
 			margin: 0 0 2rem 0;
