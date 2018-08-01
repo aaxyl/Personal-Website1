@@ -653,6 +653,13 @@
 			width: 100%;
 		}
 
+		.image.fitMiddle {
+			float: middle;
+			display: block;
+			margin: 0 0 2rem 0;
+			width: 100%
+		}
+
 		.image.fit {
 			display: block;
 			margin: 0 0 2rem 0;
