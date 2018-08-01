@@ -653,6 +653,10 @@
 			width: 100%;
 		}
 
+			.image.fitTP img {
+				width: 100%;
+			}
+
 		.image.fitMiddle {
 			float: middle;
 			display: block;
